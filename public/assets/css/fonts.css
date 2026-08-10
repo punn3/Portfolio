@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Inter_bold';
-    src: url('../fonts/Inter18pt-Bold.eot');
-    src: url('../fonts/Inter18pt-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Inter18pt-Bold.woff2') format('woff2'),
-        url('../fonts/Inter18pt-Bold.woff') format('woff'),
-        url('../fonts/Inter18pt-Bold.ttf') format('truetype'),
-        url('../fonts/Inter18pt-Bold.svg#Inter18pt-Bold') format('svg');
+    src: url('/assets/fonts/Inter18pt-Bold.eot');
+    src: url('/assets/fonts/Inter18pt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Inter18pt-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Inter18pt-Bold.woff') format('woff'),
+        url('/assets/fonts/Inter18pt-Bold.ttf') format('truetype'),
+        url('/assets/fonts/Inter18pt-Bold.svg#Inter18pt-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -13,12 +13,12 @@
 
 @font-face {
     font-family: 'Inter900';
-    src: url('../fonts/Inter18pt-Black.eot');
-    src: url('../fonts/Inter18pt-Black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Inter18pt-Black.woff2') format('woff2'),
-        url('../fonts/Inter18pt-Black.woff') format('woff'),
-        url('../fonts/Inter18pt-Black.ttf') format('truetype'),
-        url('../fonts/Inter18pt-Black.svg#Inter18pt-Black') format('svg');
+    src: url('/assets/fonts/Inter18pt-Black.eot');
+    src: url('/assets/fonts/Inter18pt-Black.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Inter18pt-Black.woff2') format('woff2'),
+        url('/assets/fonts/Inter18pt-Black.woff') format('woff'),
+        url('/assets/fonts/Inter18pt-Black.ttf') format('truetype'),
+        url('/assets/fonts/Inter18pt-Black.svg#Inter18pt-Black') format('svg');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -26,12 +26,12 @@
 
 @font-face {
     font-family: 'Inter_extraBold';
-    src: url('../fonts/Inter18pt-ExtraBold.eot');
-    src: url('../fonts/Inter18pt-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Inter18pt-ExtraBold.woff2') format('woff2'),
-        url('../fonts/Inter18pt-ExtraBold.woff') format('woff'),
-        url('../fonts/Inter18pt-ExtraBold.ttf') format('truetype'),
-        url('../fonts/Inter18pt-ExtraBold.svg#Inter18pt-ExtraBold') format('svg');
+    src: url('/assets/fonts/Inter18pt-ExtraBold.eot');
+    src: url('/assets/fonts/Inter18pt-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Inter18pt-ExtraBold.woff2') format('woff2'),
+        url('/assets/fonts/Inter18pt-ExtraBold.woff') format('woff'),
+        url('/assets/fonts/Inter18pt-ExtraBold.ttf') format('truetype'),
+        url('/assets/fonts/Inter18pt-ExtraBold.svg#Inter18pt-ExtraBold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -39,12 +39,12 @@
 
 @font-face {
     font-family: 'Inter200';
-    src: url('../fonts/Inter18pt-ExtraLight.eot');
-    src: url('../fonts/Inter18pt-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Inter18pt-ExtraLight.woff2') format('woff2'),
-        url('../fonts/Inter18pt-ExtraLight.woff') format('woff'),
-        url('../fonts/Inter18pt-ExtraLight.ttf') format('truetype'),
-        url('../fonts/Inter18pt-ExtraLight.svg#Inter18pt-ExtraLight') format('svg');
+    src: url('/assets/fonts/Inter18pt-ExtraLight.eot');
+    src: url('/assets/fonts/Inter18pt-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Inter18pt-ExtraLight.woff2') format('woff2'),
+        url('/assets/fonts/Inter18pt-ExtraLight.woff') format('woff'),
+        url('/assets/fonts/Inter18pt-ExtraLight.ttf') format('truetype'),
+        url('/assets/fonts/Inter18pt-ExtraLight.svg#Inter18pt-ExtraLight') format('svg');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -52,12 +52,12 @@
 
 @font-face {
     font-family: 'Inter300';
-    src: url('../fonts/Inter18pt-Light.eot');
-    src: url('../fonts/Inter18pt-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Inter18pt-Light.woff2') format('woff2'),
-        url('../fonts/Inter18pt-Light.woff') format('woff'),
-        url('../fonts/Inter18pt-Light.ttf') format('truetype'),
-        url('../fonts/Inter18pt-Light.svg#Inter18pt-Light') format('svg');
+    src: url('/assets/fonts/Inter18pt-Light.eot');
+    src: url('/assets/fonts/Inter18pt-Light.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Inter18pt-Light.woff2') format('woff2'),
+        url('/assets/fonts/Inter18pt-Light.woff') format('woff'),
+        url('/assets/fonts/Inter18pt-Light.ttf') format('truetype'),
+        url('/assets/fonts/Inter18pt-Light.svg#Inter18pt-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -65,12 +65,12 @@
 
 @font-face {
     font-family: 'Inter500';
-    src: url('../fonts/Inter18pt-Medium.eot');
-    src: url('../fonts/Inter18pt-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Inter18pt-Medium.woff2') format('woff2'),
-        url('../fonts/Inter18pt-Medium.woff') format('woff'),
-        url('../fonts/Inter18pt-Medium.ttf') format('truetype'),
-        url('../fonts/Inter18pt-Medium.svg#Inter18pt-Medium') format('svg');
+    src: url('/assets/fonts/Inter18pt-Medium.eot');
+    src: url('/assets/fonts/Inter18pt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Inter18pt-Medium.woff2') format('woff2'),
+        url('/assets/fonts/Inter18pt-Medium.woff') format('woff'),
+        url('/assets/fonts/Inter18pt-Medium.ttf') format('truetype'),
+        url('/assets/fonts/Inter18pt-Medium.svg#Inter18pt-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -78,12 +78,12 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url('../fonts/Inter18pt-Regular.eot');
-    src: url('../fonts/Inter18pt-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Inter18pt-Regular.woff2') format('woff2'),
-        url('../fonts/Inter18pt-Regular.woff') format('woff'),
-        url('../fonts/Inter18pt-Regular.ttf') format('truetype'),
-        url('../fonts/Inter18pt-Regular.svg#Inter18pt-Regular') format('svg');
+    src: url('/assets/fonts/Inter18pt-Regular.eot');
+    src: url('/assets/fonts/Inter18pt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Inter18pt-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Inter18pt-Regular.woff') format('woff'),
+        url('/assets/fonts/Inter18pt-Regular.ttf') format('truetype'),
+        url('/assets/fonts/Inter18pt-Regular.svg#Inter18pt-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -91,12 +91,12 @@
 
 @font-face {
     font-family: 'Inter100';
-    src: url('../fonts/Inter18pt-Thin.eot');
-    src: url('../fonts/Inter18pt-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Inter18pt-Thin.woff2') format('woff2'),
-        url('../fonts/Inter18pt-Thin.woff') format('woff'),
-        url('../fonts/Inter18pt-Thin.ttf') format('truetype'),
-        url('../fonts/Inter18pt-Thin.svg#Inter18pt-Thin') format('svg');
+    src: url('/assets/fonts/Inter18pt-Thin.eot');
+    src: url('/assets/fonts/Inter18pt-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Inter18pt-Thin.woff2') format('woff2'),
+        url('/assets/fonts/Inter18pt-Thin.woff') format('woff'),
+        url('/assets/fonts/Inter18pt-Thin.ttf') format('truetype'),
+        url('/assets/fonts/Inter18pt-Thin.svg#Inter18pt-Thin') format('svg');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -104,12 +104,12 @@
 
 @font-face {
     font-family: 'Inter600';
-    src: url('../fonts/Inter18pt-SemiBold.eot');
-    src: url('../fonts/Inter18pt-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Inter18pt-SemiBold.woff2') format('woff2'),
-        url('../fonts/Inter18pt-SemiBold.woff') format('woff'),
-        url('../fonts/Inter18pt-SemiBold.ttf') format('truetype'),
-        url('../fonts/Inter18pt-SemiBold.svg#Inter18pt-SemiBold') format('svg');
+    src: url('/assets/fonts/Inter18pt-SemiBold.eot');
+    src: url('/assets/fonts/Inter18pt-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Inter18pt-SemiBold.woff2') format('woff2'),
+        url('/assets/fonts/Inter18pt-SemiBold.woff') format('woff'),
+        url('/assets/fonts/Inter18pt-SemiBold.ttf') format('truetype'),
+        url('/assets/fonts/Inter18pt-SemiBold.svg#Inter18pt-SemiBold') format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -117,12 +117,12 @@
 
 @font-face {
     font-family: 'SpaceGrotesk_Light';
-    src: url('../fonts/SpaceGrotesk-Light.eot');
-    src: url('../fonts/SpaceGrotesk-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/SpaceGrotesk-Light.woff2') format('woff2'),
-        url('../fonts/SpaceGrotesk-Light.woff') format('woff'),
-        url('../fonts/SpaceGrotesk-Light.ttf') format('truetype'),
-        url('../fonts/SpaceGrotesk-Light.svg#SpaceGrotesk-Light') format('svg');
+    src: url('/assets/fonts/SpaceGrotesk-Light.eot');
+    src: url('/assets/fonts/SpaceGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SpaceGrotesk-Light.woff2') format('woff2'),
+        url('/assets/fonts/SpaceGrotesk-Light.woff') format('woff'),
+        url('/assets/fonts/SpaceGrotesk-Light.ttf') format('truetype'),
+        url('/assets/fonts/SpaceGrotesk-Light.svg#SpaceGrotesk-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -131,12 +131,12 @@
 
 @font-face {
     font-family: 'SpaceGrotesk_Medium';
-    src: url('../fonts/SpaceGrotesk-Medium.eot');
-    src: url('../fonts/SpaceGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/SpaceGrotesk-Medium.woff2') format('woff2'),
-        url('../fonts/SpaceGrotesk-Medium.woff') format('woff'),
-        url('../fonts/SpaceGrotesk-Medium.ttf') format('truetype'),
-        url('../fonts/SpaceGrotesk-Medium.svg#SpaceGrotesk-Medium') format('svg');
+    src: url('/assets/fonts/SpaceGrotesk-Medium.eot');
+    src: url('/assets/fonts/SpaceGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SpaceGrotesk-Medium.woff2') format('woff2'),
+        url('/assets/fonts/SpaceGrotesk-Medium.woff') format('woff'),
+        url('/assets/fonts/SpaceGrotesk-Medium.ttf') format('truetype'),
+        url('/assets/fonts/SpaceGrotesk-Medium.svg#SpaceGrotesk-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -144,12 +144,12 @@
 
 @font-face {
     font-family: 'SpaceGrotesk_Bold';
-    src: url('../fonts/SpaceGrotesk-Bold.eot');
-    src: url('../fonts/SpaceGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/SpaceGrotesk-Bold.woff2') format('woff2'),
-        url('../fonts/SpaceGrotesk-Bold.woff') format('woff'),
-        url('../fonts/SpaceGrotesk-Bold.ttf') format('truetype'),
-        url('../fonts/SpaceGrotesk-Bold.svg#SpaceGrotesk-Bold') format('svg');
+    src: url('/assets/fonts/SpaceGrotesk-Bold.eot');
+    src: url('/assets/fonts/SpaceGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SpaceGrotesk-Bold.woff2') format('woff2'),
+        url('/assets/fonts/SpaceGrotesk-Bold.woff') format('woff'),
+        url('/assets/fonts/SpaceGrotesk-Bold.ttf') format('truetype'),
+        url('/assets/fonts/SpaceGrotesk-Bold.svg#SpaceGrotesk-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -157,12 +157,12 @@
 
 @font-face {
     font-family: 'SpaceGrotesk_Regular';
-    src: url('../fonts/SpaceGrotesk-Regular.eot');
-    src: url('../fonts/SpaceGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
-        url('../fonts/SpaceGrotesk-Regular.woff') format('woff'),
-        url('../fonts/SpaceGrotesk-Regular.ttf') format('truetype'),
-        url('../fonts/SpaceGrotesk-Regular.svg#SpaceGrotesk-Regular') format('svg');
+    src: url('/assets/fonts/SpaceGrotesk-Regular.eot');
+    src: url('/assets/fonts/SpaceGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
+        url('/assets/fonts/SpaceGrotesk-Regular.woff') format('woff'),
+        url('/assets/fonts/SpaceGrotesk-Regular.ttf') format('truetype'),
+        url('/assets/fonts/SpaceGrotesk-Regular.svg#SpaceGrotesk-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -170,12 +170,12 @@
 
 @font-face {
     font-family: 'SpaceGrotesk_SemiBold';
-    src: url('../fonts/SpaceGrotesk-SemiBold.eot');
-    src: url('../fonts/SpaceGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/SpaceGrotesk-SemiBold.woff2') format('woff2'),
-        url('../fonts/SpaceGrotesk-SemiBold.woff') format('woff'),
-        url('../fonts/SpaceGrotesk-SemiBold.ttf') format('truetype'),
-        url('../fonts/SpaceGrotesk-SemiBold.svg#SpaceGrotesk-SemiBold') format('svg');
+    src: url('/assets/fonts/SpaceGrotesk-SemiBold.eot');
+    src: url('/assets/fonts/SpaceGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+        url('/assets/fonts/SpaceGrotesk-SemiBold.woff') format('woff'),
+        url('/assets/fonts/SpaceGrotesk-SemiBold.ttf') format('truetype'),
+        url('/assets/fonts/SpaceGrotesk-SemiBold.svg#SpaceGrotesk-SemiBold') format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -183,11 +183,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?wvvnqc');
-  src:  url('../fonts/icomoon.eot?wvvnqc#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?wvvnqc') format('truetype'),
-    url('../fonts/icomoon.woff?wvvnqc') format('woff'),
-    url('../fonts/icomoon.svg?wvvnqc#icomoon') format('svg');
+  src:  url('/assets/fonts/icomoon.eot?wvvnqc');
+  src:  url('/assets/fonts/icomoon.eot?wvvnqc#iefix') format('embedded-opentype'),
+    url('/assets/fonts/icomoon.ttf?wvvnqc') format('truetype'),
+    url('/assets/fonts/icomoon.woff?wvvnqc') format('woff'),
+    url('/assets/fonts/icomoon.svg?wvvnqc#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

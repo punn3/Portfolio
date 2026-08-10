@@ -12,7 +12,7 @@
       </div>
       <div class="row">
         <div class="col-12 col-md-6 pic-2">
-          <img src="\assets\images\Group2.png" alt="group2">
+          <img src="/assets/images/Group2.png" alt="group2">
 
         </div>
         <div class="col-12 col-md-6 about-info">
