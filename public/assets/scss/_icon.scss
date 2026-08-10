@@ -1,0 +1,51 @@
+.icon-item {
+    color: #111827;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+
+    a {
+        color: #111827;
+
+        span {
+            font-size: 30px;
+        }
+
+    }
+    &:hover {
+        // background-color: #1e293b;
+        background-color: #0B192C;
+        transform: scale(1.2);
+
+        span {
+            // color:#e5e7eb;
+            color: white;
+        }
+    }
+
+    &.icon-white {
+        color: #e5e7eb;
+        border: 2px solid #e5e7eb;
+        border-radius: 10px;
+        column-gap: 10px;
+        transition: all 0.2s ease;
+
+        a {
+            color: #e5e7eb;
+
+            span {
+                font-size: 30px;
+            }
+
+        }
+        &:hover {
+            border-color: #111827;
+            background-color: #EFB036;
+            transform: scale(1.2);
+
+            span {
+                color: #111827;
+            }
+        }
+    }
+}

@@ -1,0 +1,261 @@
+@import "variables";
+@import "mixins";
+@import "flex";
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#scroll-page {
+    header {
+        height: 45px;
+        background-color: #10375C;
+        color: #EB8317;
+        align-items: center;
+        @include flexbox();
+        @include align-content(center);
+
+        @media ($screen-md-min) {
+            height: 85px *0.4;
+        }
+
+        @media ($screen-lg-min) {
+            height: 85px *0.5;
+        }
+
+        @media ($screen-xl-min) {
+            height: 85px *0.6;
+        }
+
+        @media($screen-xxl-min) {
+            height: 85px *0.7;
+        }
+
+        @media ($screen-big-min) {
+            height: 85px;
+        }
+
+        .head {
+            @include flexbox();
+            @include justify-content(space-between);
+            align-items: center;
+            width: 100%;
+            font-weight: 600;
+
+            .logo {
+                h1 {
+                    margin: 0;
+
+                    @media ($screen-md-min) {
+                        font-size: 30px;
+                    }
+                }
+            }
+
+            .navbar {
+                padding: 0;
+
+                a {
+                    color: #EB8317;
+
+                    @media ($screen-xs) {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .srcoll-section {
+        margin: 20px 0;
+
+        .row {
+            .flex-column {
+                row-gap: 10px;
+            }
+
+            .scroll-left {
+                height: calc(100svh - 140px);
+                overflow: auto;
+                padding: 0 5px;
+
+                @media #{$screen-xs} {
+                    width: 20%;
+                }
+
+                @media ($screen-md-min) {
+                    height: calc(100svh - 108px);
+                    padding: 0 20px;
+                }
+
+                @media ($screen-lg-min) {
+                    height: calc(100svh - 125px);
+                }
+
+                @media ($screen-xl-min) {
+                    height: calc(100svh - (210px*0.6));
+                }
+
+                @media($screen-xxl-min) {
+                    height: calc(100svh - 159px);
+                }
+
+                @media ($screen-big-min) {
+                    height: calc(100svh - 210px);
+                }
+
+                .left-box {
+                    text-align: center;
+                    border-radius: 10px;
+                    background-color: #FCF5ED;
+                    padding: 5px ;
+                    border: none;
+
+                    @media #{$screen-md-min} {
+                        padding: 20px 20px 10px;
+                    }
+
+                    .image{
+                        aspect-ratio: 3/2;
+                        img{
+                            object-fit: cover;
+                        }
+                    }
+
+                    .text {
+                        margin-top: 5px;
+
+                        p {
+                            margin: 0;
+                            font-size: 12px;
+
+                            @media #{$screen-md-min} {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+                    &.active {
+                        background-color: #E78B48;
+                    }
+                }
+            }
+
+            .scroll-left::-webkit-scrollbar {
+                display: none;
+            }
+
+            .scroll-right {
+                height: calc(100svh - 140px);
+                overflow: auto;
+                padding: 0 5px;
+
+                @media #{$screen-xs} {
+                    width: 80%;
+                }
+
+                @media ($screen-md-min) {
+                    height: calc(100svh - 108px);
+                    padding: 0 20px;
+                }
+
+                @media ($screen-lg-min) {
+                    height: calc(100svh - 125px);
+                }
+
+                @media ($screen-xl-min) {
+                    height: calc(100svh - (210px*0.6));
+                }
+
+                @media($screen-xxl-min) {
+                    height: calc(100svh - 159px);
+                }
+
+                @media ($screen-big-min) {
+                    height: calc(100svh - 210px);
+                }
+
+                .banner {
+                    .image-banner {
+
+                        @media #{$screen-md-min} {
+                            @include aspect-ratio(1136, 213);
+                        }
+
+                        img {
+                            object-fit: cover;
+                        }
+                    }
+                }
+
+                .row {
+                    @include flex-direction(row);
+                    @include align-items(center);
+                    margin-top: 10px;
+                    padding: 0 6px;
+                    row-gap: 10px;
+
+                    .right-box {
+                        @include flexbox();
+                        @include flex(0, 0, auto);
+                        width: 25%;
+                        aspect-ratio: 5/4;
+                        padding: 0 5px;
+
+                        @media #{$screen-md-min} {
+                            width: 12.5%;
+                        }
+
+                        .icon-right {
+                            img {
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .scroll-right::-webkit-scrollbar {
+                display: none;
+            }
+        }
+    }
+
+    footer {
+        @include flexbox();
+        @include justify-content(center);
+        width: 100%;
+        height: 45px;
+        background-color: #10375C;
+        color: #EB8317;
+        bottom: 0;
+        align-items: center;
+
+        @media ($screen-md-min) {
+            height: 85px *0.4;
+        }
+
+        @media ($screen-lg-min) {
+            height: 85px *0.5;
+        }
+
+        @media ($screen-xl-min) {
+            height: 85px *0.6;
+        }
+
+        @media($screen-xxl-min) {
+            height: 85px *0.7;
+        }
+
+        @media ($screen-big-min) {
+            height: 85px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 25px;
+
+        }
+    }
+}

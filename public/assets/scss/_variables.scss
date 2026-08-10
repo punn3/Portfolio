@@ -1,0 +1,41 @@
+$pri_red: red !default;
+
+$grid-columns: 12;
+$grid-gutter-width: 1.5rem;
+
+$screen-xs: "(min-width: 0px)";
+$screen-430-min: "(min-width: 430px)";
+$screen-sm-min: "(min-width: 576px)";
+$screen-md-min: "(min-width: 768px)";
+$screen-lg-min: "(min-width: 992px)";
+$screen-xl-min: "(min-width: 1200px)";
+$screen-xxl-min: "(min-width: 1400px)";
+$screen-xxxl-min: "(min-width: 1665px)";
+$screen-big-min: "(min-width: 1920px)";
+
+$width-xs: "(min-width: 0px)";
+$width-430-min: "(min-width: 430px)";
+$width-sm-min: 576px;
+$width-md-min: 768px;
+$width-lg-min: 992px;
+$width-xl-min: 1200px;
+$width-xxl-min: 1400px;
+$width-xxxl-min: 1665px;
+$width-big-min: 1920px;
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px
+);
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+);
