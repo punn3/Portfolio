@@ -8,6 +8,7 @@ const skills = [
   { icon: 'logos:flutter', title: 'Flutter' },
   { icon: 'logos:dart', title: 'Dart' },
   { icon: 'logos:react', title: 'React' },
+  { icon: 'logos:typescript', title: 'Typescript' },
   { icon: 'logos:vue', title: 'Vue.js'},
   { icon: 'logos:nextjs', title: 'Next.js' },
   { icon: 'logos:splunk', title: 'Splunk' },

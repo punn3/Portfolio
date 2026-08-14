@@ -3,22 +3,22 @@ import { reactive,ref } from 'vue'
 import Swal from 'sweetalert2'
 
 interface FormData {
+  company: string
   name: string
-  lastname: string
   email: string
   tel: string
 }
 
 interface FormErrors {
+  company?: string
   name?: string
-  lastname?: string 
   email?: string
   tel?: string
 }
 
 const form = reactive<FormData>({
+  company: '',
   name: '',
-  lastname: '',
   email: '',
   tel: '',
 })
@@ -26,17 +26,17 @@ const form = reactive<FormData>({
 const errors = reactive<FormErrors>({})
 
 function validate(): boolean {
+  errors.company = form.company ? '' : 'Please enter your company'
   errors.name = form.name ? '' : 'Please enter your name'
-  errors.lastname = form.lastname ? '' : 'Please enter your lastname'
   errors.email = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)
     ? ''
     : 'Please enter a valid email'
   errors.tel = form.tel ? '' : 'Please enter your phone'
 
-  return !errors.name && !errors.lastname && !errors.email && !errors.tel
+  return !errors.company && !errors.name && !errors.email && !errors.tel
 }
 
-const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwKX6agi64go4QTbKykO0vymFTi8qIthzXnQinHZuWzCNISzBzNd6g67XOPgYJiiu13Eg/exec'
+const SHEET_URL = 'https://script.google.com/macros/s/AKfycbzDsq9_F_cSUWWUl-G59G01lGMBCTpHedOEOiR-Ovgtmd1C0VF73OGfhX4f74vgEZCQwQ/exec'
 
 const isLoading = ref(false)
 
@@ -49,8 +49,8 @@ async function handleSubmit() {
   isLoading.value = true
   try {
     const params = new URLSearchParams()
+    params.append('company', form.company)
     params.append('name', form.name)
-    params.append('lastname', form.lastname)
     params.append('email', form.email)
     params.append('tel', form.tel)
 
@@ -67,8 +67,8 @@ async function handleSubmit() {
     })
 
     // reset form
+    form.company = ''
     form.name = ''
-    form.lastname = ''
     form.email = ''
     form.tel = ''
   }
@@ -93,18 +93,18 @@ async function handleSubmit() {
     <div class="row color-white gap-2">
       <div class="col-12 ">
         <div class="d-flex flex-column gap-1">
-          <label for="name" class="title-head">Name :</label>
-          <input id="name" class="form-control title-head" v-model="form.name" type="text" placeholder="John"
-            :class="{ 'is-invalid': errors.name }" />
-          <span v-if="errors.name" class="error">{{ errors.name }}</span>
+          <label for="company" class="title-head">Company :</label>
+          <input id="company" class="form-control title-head" v-model="form.company" type="text" placeholder="Company Name"
+            :class="{ 'is-invalid': errors.company }" />
+          <span v-if="errors.company" class="error">{{ errors.company }}</span>
         </div>
       </div>
       <div class="col-12">
         <div class="d-flex flex-column gap-1">
-          <label for="lastname" class="title-head">Lastname :</label>
-          <input id="lastname" class="form-control title-head" v-model="form.lastname" type="text" placeholder="Doe"
-            :class="{ 'is-invalid': errors.lastname }" />
-          <span v-if="errors.lastname" class="error">{{ errors.lastname }}</span>
+          <label for="name" class="title-head">Name :</label>
+          <input id="name" class="form-control title-head" v-model="form.name" type="text" placeholder="John"
+            :class="{ 'is-invalid': errors.name }" />
+          <span v-if="errors.name" class="error">{{ errors.name }}</span>
         </div>
       </div>
       <div class="col-12">

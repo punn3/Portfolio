@@ -19,7 +19,7 @@ const icons = [
     {
         link: 'https://www.instagram.com/pnxm.c/?hl=th',
         icon: 'icon-instagram',
-    }, 
+    },
     {
         link: 'https://github.com/punn3',
         icon: 'icon-github',
@@ -32,7 +32,7 @@ const icons = [
     <section class="contact" id="contact">
         <div class="container">
             <h2 class="heading-3-head">Contact Us</h2>
-            <p class="title-head">Buriram, Thailand</p>
+            <p class="title-head">Thailand</p>
             <div class="contact-field">
                 <div class="row">
                     <div class="col-12 col-lg-6">

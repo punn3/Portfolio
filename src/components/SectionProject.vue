@@ -39,7 +39,7 @@ const projects = [
   {
     "img": '/assets/images/api.png',
     "img2": '/assets/images/api-2.png',
-    'subtitle': 'Api-page',
+    'subtitle': 'Api-page Exercise',
     "description":
       'Making a landing page using a vue.js loop. This exercise uses an API from the mockapi website, along with the use of gsap animations.',
     "link": '/api',
@@ -48,7 +48,7 @@ const projects = [
   {
     "img": '/assets/images/scroll.png',
     "img2": '/assets/images/scroll-2.png',
-    "subtitle": 'Scroll Page',
+    "subtitle": 'Scroll Page Exercise',
     "description":
       'Scrolling the tab menu and main content independently without affecting other sections. When clicking on a tab menu image, the corresponding image in the main content will change. Developed using HTML, CSS, Bootstrap, and jQuery.',
     "link": '/scroll',
@@ -57,7 +57,7 @@ const projects = [
   {
     "img": '/assets/images/landing-page.png',
     "img2": '/assets/images/landing-page-2.png',
-    'subtitle': 'Landing Page Nexcent',
+    'subtitle': 'Landing Page Exercise',
     "description":
       'A responsive landing page example developed using HTML, CSS, and Bootstrap.',
     "link": '/landing',
@@ -66,7 +66,7 @@ const projects = [
   {
     "img": '/assets/images/flex-portfolio.png',
     "img2": '/assets/images/flex-portfolio-2.png',
-    'subtitle': 'Flex Portfolio',
+    'subtitle': 'Flex Portfolio Exercise',
     "description":
       'A portfolio example focusing on the use of Flexbox, developed using HTML, CSS, and Bootstrap.',
     "link": '/flex-port',
