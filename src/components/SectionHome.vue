@@ -26,8 +26,9 @@ const icons = [
           </h1>
           <div class="home-title">
             <p class="title">
-              Computer Engineering graduate, I'm eager to grow in a dynamic, challenging environment where I can expand
-              my skills and learn new technologies. and contribute to team success.
+              Computer Engineering graduate with practical experience, including 3 months as a
+              Frontend developer intern using Vue.js and Bootstrap5, and 8 months developing a Full-stack Developer with Next.js. Eager to grow in a dynamic, challenging environment where I can expand my skills
+              and contribute to team success.
             </p>
           </div>
           <div class="home-icon">

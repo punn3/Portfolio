@@ -18,7 +18,7 @@
         <div class="col-12 col-md-6 about-info">
           <div class="about-text">
             <h3 class="heading-3-head">
-              Hello, my name is Punthariwan Chaiya
+              Hello, My name is Punthariwan Chaiya
             </h3>
             <p class="title-head">
               Computer Engineering Graduate | Khon Kaen University</p>
